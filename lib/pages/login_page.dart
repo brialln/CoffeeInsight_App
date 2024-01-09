@@ -23,12 +23,12 @@ class LoginPage extends StatelessWidget {
                     onTap: () {
                       Navigator.pushNamed(context, '/');
                     },
-                    child: Image.asset('assets/Back Arrow.png'),
+                    child: Image.asset('assets/icons/Back Arrow.png'),
                   )
 
                 ),
 
-                Image.asset('assets/CoffeeInsight-Logo.png'),
+                Image.asset('assets/icons/CoffeeInsight-Logo.png'),
 
                 SizedBox(
                   height: 20,

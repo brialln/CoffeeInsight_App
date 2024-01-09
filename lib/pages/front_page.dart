@@ -17,7 +17,7 @@ class FrontPage extends StatelessWidget {
 
               children: [
                 Spacer(),
-                Image.asset('assets/CoffeeInsight-Logo.png'),
+                Image.asset('assets/icons/CoffeeInsight-Logo.png'),
 
                 Text('Welcome to', style: TextStyle(
                   color: AppColors.primary,

@@ -25,11 +25,11 @@ class SignUpPage extends StatelessWidget {
                       onTap: () {
                         Navigator.pushNamed(context, '/');
                       },
-                      child: Image.asset('assets/Back Arrow.png'),
+                      child: Image.asset('assets/icons/Back Arrow.png'),
                     )
                   ),
 
-            Image.asset("assets/CoffeeInsight-Logo.png"),
+            Image.asset("assets/icons/CoffeeInsight-Logo.png"),
 
             SizedBox(
               height: 20,
@@ -203,7 +203,7 @@ class SignUpPage extends StatelessWidget {
                       SizedBox(
                         width: 5,
                       ),
-                      Image.asset('assets/Google.png'),
+                      Image.asset('assets/icons/Google.png'),
                     ]
                 ),
               ),
